@@ -1,0 +1,560 @@
+{
+  "ciencias": [
+    {
+      "question": "Qual é o maior planeta do Sistema Solar?",
+      "options": [
+        {"text": "Marte", "correct": false},
+        {"text": "Júpiter", "correct": true},
+        {"text": "Vênus", "correct": false},
+        {"text": "Mercúrio", "correct": false}
+      ]
+    },
+    {
+      "question": "Qual é o elemento químico mais abundante no universo?",
+      "options": [
+        {"text": "Oxigênio", "correct": false},
+        {"text": "Hidrogênio", "correct": true},
+        {"text": "Carbono", "correct": false},
+        {"text": "Nitrogênio", "correct": false}
+      ]
+    },
+    {
+      "question": "Quais são os três estados físicos da matéria?",
+      "options": [
+        {"text": "Sólido, líquido e gasoso", "correct": true},
+        {"text": "Sólido, líquido e plasma", "correct": false},
+        {"text": "Líquido, gasoso e plasma", "correct": false},
+        {"text": "Sólido, gasoso e condensado", "correct": false}
+      ]
+    },
+    {
+      "question": "O que é a fotossíntese?",
+      "options": [
+        {"text": "Processo de respiração das plantas", "correct": false},
+        {"text": "Processo de conversão de luz solar em energia química", "correct": true},
+        {"text": "Processo de reprodução das plantas", "correct": false},
+        {"text": "Processo de crescimento das plantas", "correct": false}
+      ]
+    },
+    {
+      "question": "Qual é a fórmula química da água?",
+      "options": [
+        {"text": "CO2", "correct": false},
+        {"text": "C6H12O6", "correct": false},
+        {"text": "NaCl", "correct": false},
+        {"text": "H2O", "correct": true}
+      ]
+    },
+    {
+      "question": "Qual é o órgão responsável pela circulação do sangue?",
+      "options": [
+        {"text": "Pulmão", "correct": false},
+        {"text": "Fígado", "correct": false},
+        {"text": "Coração", "correct": true},
+        {"text": "Rins", "correct": false}
+      ]
+    },
+    {
+      "question": "O que é um átomo?",
+      "options": [
+        {"text": "Um tipo de partícula subatômica", "correct": false},
+        {"text": "Uma molécula formada por dois elementos químicos", "correct": false},
+        {"text": "Uma célula animal", "correct": false},
+        {"text": "A menor partícula de um elemento químico", "correct": true}
+      ]
+    },
+    {
+      "question": "Qual é a principal função do sistema nervoso?",
+      "options": [
+        {"text": "Produzir energia para o corpo", "correct": false},
+        {"text": "Digerir alimentos", "correct": false},
+        {"text": "Coordenar as atividades do corpo e enviar sinais elétricos", "correct": true},
+        {"text": "Produzir hormônios", "correct": false}
+      ]
+    },
+    {
+      "question": "O que é a gravidade?",
+      "options": [
+        {"text": "Uma força que atrai objetos uns aos outros", "correct": true},
+        {"text": "Um fenômeno óptico", "correct": false},
+        {"text": "Um tipo de energia", "correct": false},
+        {"text": "Uma propriedade dos líquidos", "correct": false}
+      ]
+    },
+    {
+      "question": "Qual é a função do sistema respiratório?",
+      "options": [
+        {"text": "Digerir alimentos", "correct": false},
+        {"text": "Transportar oxigênio pelo corpo", "correct": true},
+        {"text": "Produzir hormônios", "correct": false},
+        {"text": "Regular a temperatura do corpo", "correct": false}
+      ]
+    }
+  ],
+  "historia": [
+      {
+          "question": "Quem descobriu o Brasil?",
+          "options": [
+            {"text": "Vasco da Gama", "correct": false},
+            {"text": "Cristóvão Colombo", "correct": false},
+            {"text": "Fernão de Magalhães", "correct": false},
+            {"text": "Pedro Álvares Cabral", "correct": true}
+          ]
+        },
+        {
+          "question": "Em que ano ocorreu a Primeira Guerra Mundial?",
+          "options": [
+            {"text": "1914", "correct": true},
+            {"text": "1939", "correct": false},
+            {"text": "1918", "correct": false},
+            {"text": "1945", "correct": false}
+          ]
+        },
+        {
+          "question": "Quem foi o primeiro presidente dos Estados Unidos?",
+          "options": [
+            {"text": "Abraham Lincoln", "correct": false},
+            {"text": "Thomas Jefferson", "correct": false},
+            {"text": "George Washington", "correct": true},
+            {"text": "John F. Kennedy", "correct": false}
+          ]
+        },
+        {
+          "question": "Quem foi o líder da Revolução Russa em 1917?",
+          "options": [
+            {"text": "Vladimir Lenin", "correct": true},
+            {"text": "Joseph Stalin", "correct": false},
+            {"text": "Leon Trotsky", "correct": false},
+            {"text": "Nicolau II", "correct": false}
+          ]
+        },
+        {
+          "question": "Em que ano a Segunda Guerra Mundial terminou?",
+          "options": [
+            {"text": "1945", "correct": true},
+            {"text": "1939", "correct": false},
+            {"text": "1941", "correct": false},
+            {"text": "1948", "correct": false}
+          ]
+        },
+        {
+          "question": "Quem foi o líder sul-africano que lutou contra o apartheid e se tornou presidente do país?",
+          "options": [
+            {"text": "Jacob Zuma", "correct": false},
+            {"text": "Desmond Tutu", "correct": false},
+            {"text": "Nelson Mandela", "correct": true},
+            {"text": "Thabo Mbeki", "correct": false}
+          ]
+        },
+        {
+          "question": "Qual foi o imperador romano que ficou conhecido por sua extravagância e por incendiar Roma?",
+          "options": [
+            {"text": "Nero", "correct": true},
+            {"text": "Júlio César", "correct": false},
+            {"text": "Augusto", "correct": false},
+            {"text": "Constantino", "correct": false}
+          ]
+        },
+        {
+          "question": "Em que ano a Revolução Francesa teve início?",
+          "options": [
+            {"text": "1848", "correct": false},
+            {"text": "1804", "correct": false},
+            {"text": "1765", "correct": false},
+            {"text": "1789", "correct": true}
+          ]
+        },
+        {
+          "question": "Quem foi o líder pacifista indiano que lutou pela independência da Índia do domínio britânico?",
+          "options": [
+            {"text": "Mahatma Gandhi", "correct": true},
+            {"text": "Jawaharlal Nehru", "correct": false},
+            {"text": "Indira Gandhi", "correct": false},
+            {"text": "Rajiv Gandhi", "correct": false}
+          ]
+        },
+        {
+          "question": "Qual foi a cidade que foi dividida pelo Muro de Berlim durante a Guerra Fria?",
+          "options": [
+            {"text": "Paris", "correct": false},
+            {"text": "Berlim", "correct": true},
+            {"text": "Londres", "correct": false},
+            {"text": "Roma", "correct": false}
+          ]
+        }
+  ],
+
+  "matematica": [
+      {
+          "question": "Quanto é 2 + 2?",
+          "options": [
+            {"text": "4", "correct": true},
+            {"text": "2", "correct": false},
+            {"text": "6", "correct": false},
+            {"text": "8", "correct": false}
+          ]
+        },
+        {
+          "question": "Qual é a raiz quadrada de 16?",
+          "options": [
+            {"text": "2", "correct": false},
+            {"text": "8", "correct": false},
+            {"text": "4", "correct": true},
+            {"text": "16", "correct": false}
+          ]
+        },
+        {
+          "question": "Quanto é 5 x 3?",
+          "options": [
+            {"text": "8", "correct": false},
+            {"text": "15", "correct": true},
+            {"text": "20", "correct": false},
+            {"text": "12", "correct": false}
+          ]
+        },
+        {
+          "question": "Qual é o valor de PI?",
+          "options": [
+            {"text": "1,618", "correct": false},
+            {"text": "2,71", "correct": false},
+            {"text": "3,14", "correct": true},
+            {"text": "1,414", "correct": false}
+          ]
+        },
+        {
+          "question": "Quanto é 10 - 5?",
+          "options": [
+            {"text": "5", "correct": true},
+            {"text": "10", "correct": false},
+            {"text": "15", "correct": false},
+            {"text": "20", "correct": false}
+          ]
+        },
+        {
+          "question": "Qual é o resultado de 3²?",
+          "options": [
+            {"text": "3", "correct": false},
+            {"text": "9", "correct": true},
+            {"text": "6", "correct": false},
+            {"text": "12", "correct": false}
+          ]
+        },
+        {
+          "question": "Quanto é 12 ÷ 3?",
+          "options": [
+            {"text": "8", "correct": false},
+            {"text": "3", "correct": false},
+            {"text": "6", "correct": false},
+            {"text": "4", "correct": true}
+          ]
+        },
+        {
+          "question": "Qual é o resultado de 2 x (4 + 3)?",
+          "options": [
+            {"text": "14", "correct": true},
+            {"text": "8", "correct": false},
+            {"text": "11", "correct": false},
+            {"text": "10", "correct": false}
+          ]
+        },
+        {
+          "question": "Quanto é 9²?",
+          "options": [
+            {"text": "18", "correct": false},
+            {"text": "9", "correct": false},
+            {"text": "81", "correct": true},
+            {"text": "27", "correct": false}
+          ]
+        },
+        {
+          "question": "Qual é o resultado de 50 - 25?",
+          "options": [
+            {"text": "50", "correct": false},
+            {"text": "25", "correct": true},
+            {"text": "75", "correct": false},
+            {"text": "100", "correct": false}
+          ]
+        }
+  ],
+
+  "atualidades": [
+      {
+          "question": "Que país sediará as Olimpíadas de 2024?",
+          "options": [
+            {"text": "Catar", "correct": false},
+            {"text": "Rússia", "correct": false},
+            {"text": "Estados Unidos", "correct": false},
+            {"text": "França", "correct": true}
+          ]
+        },
+        {
+          "question": "Qual é a vacina utilizada na maioria dos países para combater a COVID-19?",
+          "options": [
+            {"text": "Johnson & Johnson", "correct": false},
+            {"text": "AstraZeneca", "correct": false},
+            {"text": "Pfizer-BioNTech", "correct": true},
+            {"text": "Sinovac (CoronaVac)", "correct": false}
+          ]
+        },
+        {
+          "question": "Qual país sediou a Copa do Mundo de Futebol em 2022?",
+          "options": [
+            {"text": "Rússia", "correct": false},
+            {"text": "Brasil", "correct": false},
+            {"text": "Catar", "correct": true},
+            {"text": "Alemanha", "correct": false}
+          ]
+        },
+        {
+          "question": "Qual é o presidente dos Estados Unidos atualmente?",
+          "options": [
+            {"text": "Joe Biden", "correct": true},
+            {"text": "Donald Trump", "correct": false},
+            {"text": "Barack Obama", "correct": false},
+            {"text": "Hillary Clinton", "correct": false}
+          ]
+        },
+        {
+          "question": "Quantos anos a rainha Elizabeth II reinou?",
+          "options": [
+            {"text": "60", "correct": false},
+            {"text": "50", "correct": false},
+            {"text": "80", "correct": false},
+            {"text": "70", "correct": true}
+          ]
+        },
+        {
+          "question": "Qual música levou a cantora brasileira Anitta ao top 1 Spotify Global mulher brasileira e latina?",
+          "options": [
+            {"text": "Envolver", "correct": true},
+            {"text": "Show das poderosas", "correct": false},
+            {"text": "Paradinha", "correct": false},
+            {"text": "Vai malandra", "correct": false}
+          ]
+        },
+        {
+          "question": "Qual é o atual presidente do Brasil?",
+          "options": [
+            {"text": "Lula", "correct": true},
+            {"text": "Bolsonaro", "correct": false},
+            {"text": "Dilma", "correct": false},
+            {"text": "Michel Temer", "correct": false}
+          ]
+        },
+        {
+          "question": "Qual o nome verdadeiro do Papa atual?",
+          "options": [
+            {"text": "Francisco", "correct": false},
+            {"text": "Joseph Ratzinger", "correct": false},
+            {"text": "Jorge Mario Bergoglio", "correct": true},
+            {"text": "Karol Wojtyla", "correct": false}
+          ]
+        },
+        {
+          "question": "Qual é a maior rede social do mundo em número de usuários?",
+          "options": [
+            {"text": "Linkedin", "correct": false},
+            {"text": "Instagram", "correct": false},
+            {"text": "Twitter", "correct": false},
+            {"text": "Facebook", "correct": true}
+          ]
+        },
+        {
+          "question": "Qual país sofreu impacto de invasão em 2022 gerando uma guerra?",
+          "options": [
+            {"text": "Lituânia", "correct": false},
+            {"text": "Ucrânia", "correct": true},
+            {"text": "Rússia", "correct": false},
+            {"text": "Brasil", "correct": false}
+          ]
+        }
+  ],
+
+  "geografia": [
+      {
+          "question": "Qual é o maior oceano do mundo?",
+          "options": [
+            {"text": "Oceano Ártico", "correct": false},
+            {"text": "Oceano Atlântico", "correct": false},
+            {"text": "Oceano Índico", "correct": false},
+            {"text": "Oceano Pacífico", "correct": true}
+          ]
+        },
+        {
+          "question": "Qual é o maior país do mundo em área territorial?",
+          "options": [
+            {"text": "Rússia", "correct": true},
+            {"text": "China", "correct": false},
+            {"text": "Estados Unidos", "correct": false},
+            {"text": "Brasil", "correct": false}
+          ]
+        },
+        {
+          "question": "Qual é o rio mais longo do mundo?",
+          "options": [
+            {"text": "Rio Amazonas", "correct": false},
+            {"text": "Rio Nilo", "correct": true},
+            {"text": "Rio Yangtzé", "correct": false},
+            {"text": "Rio Mississipi", "correct": false}
+          ]
+        },
+        {
+          "question": "Qual é o maior deserto do mundo?",
+          "options": [
+            {"text": "Deserto de Kalahari", "correct": false},
+            {"text": "Deserto de Gobi", "correct": false},
+            {"text": "Deserto do Atacama", "correct": false},
+            {"text": "Deserto do Saara", "correct": true}
+          ]
+        },
+        {
+          "question": "Qual é a montanha mais alta do mundo?",
+          "options": [
+            {"text": "Monte Aconcágua", "correct": false},
+            {"text": "Monte Kilimanjaro", "correct": false},
+            {"text": "Monte Everest", "correct": true},
+            {"text": "Monte Denali", "correct": false}
+          ]
+        },
+        {
+          "question": "Qual é o país com a maior população do mundo?",
+          "options": [
+            {"text": "China", "correct": true},
+            {"text": "Índia", "correct": false},
+            {"text": "Estados Unidos", "correct": false},
+            {"text": "Brasil", "correct": false}
+          ]
+        },
+        {
+          "question": "Qual é o país com a maior extensão litorânea do mundo?",
+          "options": [
+            {"text": "Austrália", "correct": false},
+            {"text": "Brasil", "correct": false},
+            {"text": "Canadá", "correct": true},
+            {"text": "Índia", "correct": false}
+          ]
+        },
+        {
+          "question": "Qual é o continente com a maior área territorial?",
+          "options": [
+            {"text": "Ásia", "correct": true},
+            {"text": "América do Norte", "correct": false},
+            {"text": "África", "correct": false},
+            {"text": "Europa", "correct": false}
+          ]
+        },
+        {
+          "question": "Qual é o país com a maior quantidade de ilhas no mundo?",
+          "options": [
+            {"text": "Japão", "correct": false},
+            {"text": "Indonésia", "correct": false},
+            {"text": "Filipinas", "correct": false},
+            {"text": "Suécia", "correct": true}
+          ]
+        },
+        {
+          "question": "Qual é o país mais populoso da Europa?",
+          "options": [
+            {"text": "Rússia", "correct": true},
+            {"text": "Alemanha", "correct": false},
+            {"text": "França", "correct": false},
+            {"text": "Reino Unido", "correct": false}
+          ]
+        }
+  ],
+  
+  "ingles": [
+      {
+          "question": "Qual é o significado da palavra 'hello'?",
+          "options": [
+            {"text": "Olá", "correct": true},
+            {"text": "Adeus", "correct": false},
+            {"text": "Obrigado", "correct": false},
+            {"text": "Desculpe", "correct": false}
+          ]
+        },
+        {
+          "question": "Qual é a tradução de 'house'?",
+          "options": [
+            {"text": "Carro", "correct": false},
+            {"text": "Casa", "correct": true},
+            {"text": "Comida", "correct": false},
+            {"text": "Roupa", "correct": false}
+          ]
+        },
+        {
+          "question": "Como se diz 'obrigado' em inglês?",
+          "options": [
+            {"text": "Thanks", "correct": true},
+            {"text": "Hello", "correct": false},
+            {"text": "Goodbye", "correct": false},
+            {"text": "Sorry", "correct": false}
+          ]
+        },
+        {
+          "question": "Qual é a forma correta do verbo 'to be' na terceira pessoa do singular?",
+          "options": [
+            {"text": "Am", "correct": false},
+            {"text": "Be", "correct": false},
+            {"text": "Are", "correct": false},
+            {"text": "Is", "correct": true}
+          ]
+        },
+        {
+          "question": "Qual é a tradução de 'book'?",
+          "options": [
+            {"text": "Chave", "correct": false},
+            {"text": "Caneta", "correct": false},
+            {"text": "Bola", "correct": false},
+            {"text": "Livro", "correct": true}
+          ]
+        },
+        {
+          "question": "Como se diz 'eu te amo' em inglês?",
+          "options": [
+            {"text": "How are you?", "correct": false},
+            {"text": "Good morning", "correct": false},
+            {"text": "I love you", "correct": true},
+            {"text": "Thank you", "correct": false}
+          ]
+        },
+        {
+          "question": "Qual é a forma correta do verbo 'to go' na terceira pessoa do singular?",
+          "options": [
+            {"text": "Goes", "correct": true},
+            {"text": "Go", "correct": false},
+            {"text": "Went", "correct": false},
+            {"text": "Gone", "correct": false}
+          ]
+        },
+        {
+          "question": "Qual é o antônimo de 'big'?",
+          "options": [
+            {"text": "Happy", "correct": false},
+            {"text": "Small", "correct": true},
+            {"text": "Fast", "correct": false},
+            {"text": "Tall", "correct": false}
+          ]
+        },
+        {
+          "question": "Qual é a tradução de 'cat'?",
+          "options": [
+            {"text": "Pássaro", "correct": false},
+            {"text": "Cachorro", "correct": false},
+            {"text": "Gato", "correct": true},
+            {"text": "Peixe", "correct": false}
+          ]
+        },
+        {
+          "question": "Como se diz 'bom dia' em inglês?",
+          "options": [
+            {"text": "Good morning", "correct": true},
+            {"text": "Hello", "correct": false},
+            {"text": "Thank you", "correct": false},
+            {"text": "I'm sorry", "correct": false}
+          ]
+        }
+      ]
+}
+
+

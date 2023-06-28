@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jogo de Perguntas e Respostas</title>
+  <link rel="stylesheet" type="text/css" href="style.css"> <!-- Inclui o arquivo CSS externo -->
+</head>
+<body>
+  <div class="container">
+    <h1>NERDQUIZ</h1> <!-- Título do jogo -->
+    <div id="name-form">
+      <label for="name">Insira seu nick:</label><br> <!-- Campo de entrada para o nome do jogador -->
+      <input type="text" id="name">
+      <button id="startbtn" onclick="startGame()">Iniciar</button> <!-- Botão para iniciar o jogo -->
+    </div>
+    <div id="category-buttons" style="display: none;"> <!-- Contêiner dos botões de categoria (inicialmente oculto) -->
+      <h2>Selecione uma categoria:</h2> <!-- Título da seção de seleção de categoria -->
+      <button id="ciencias" onclick="loadQuestions('ciencias')">Ciências</button> <!-- Botão de categoria "Ciências" -->
+      <button id="historia" onclick="loadQuestions('historia')">História</button> <!-- Botão de categoria "História" -->
+      <button id="ingles" onclick="loadQuestions('ingles')">Inglês</button> <!-- Botão de categoria "Inglês" -->
+      <button id="geografia" onclick="loadQuestions('geografia')">Geografia</button> <!-- Botão de categoria "Geografia" -->
+      <button id="matematica" onclick="loadQuestions('matematica')">Matemática</button> <!-- Botão de categoria "Matemática" -->
+      <button id="atualidades" onclick="loadQuestions('atualidades')">Atualidades</button> <!-- Botão de categoria "Atualidades" -->
+    </div>
+    <div id="question-container" style="display: none;"> <!-- Contêiner das perguntas (inicialmente oculto) -->
+      <h2 id="question"></h2> <!-- Pergunta atual -->
+      <div id="options"></div> <!-- Contêiner das opções de resposta -->
+    </div>
+    <div id="result-container" style="display: none;"> <!-- Contêiner do resultado (inicialmente oculto) -->
+      <h2 id="result"></h2> <!-- Resultado do jogo -->
+      <button id="returnbtn" onclick="jogarNovamente()">Jogar Novamente</button> <!-- Botão jogar novamente -->
+    </div>
+  </div>
+
+  <script src="questions.json"></script> <!-- Inclui o arquivo JSON com as perguntas e respostas -->
+  <script src="script.js"></script> <!-- Inclui o arquivo JavaScript com a lógica do jogo -->
+</body>
+</html>

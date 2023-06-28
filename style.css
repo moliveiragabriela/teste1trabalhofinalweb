@@ -1,0 +1,180 @@
+/* Define o tamanho da caixa para incluir a borda */
+* {
+  box-sizing: border-box;
+}
+
+/* Define a cor de fundo para o corpo */
+body {
+  background-color: #c22add;
+}
+
+/* Estiliza o contêiner principal */
+.container {
+  position: absolute; /* Define a posição do contêiner */
+  top: 50%; /* Define a posição vertical do topo do contêiner como 50% da altura do elemento pai */
+  left: 50%; /* Define a posição horizontal da esquerda do contêiner como 50% da largura do elemento pai */
+  transform: translate(-50%, -50%); /* Move o contêiner 50% para cima e 50% para a esquerda, centralizando-o */
+  padding: 20px; /* Adiciona 20px de espaço interno dentro do contêiner */
+  width: 40%; /* Define a largura do contêiner como 40% da largura da janela de visualização */
+  margin: 0 auto; /* Centraliza horizontalmente o contêiner dentro do elemento pai */
+  border: 3px solid black; /* Define uma borda sólida de 3px para o contêiner */
+  border-radius: 20px; /* Define 20px para arredondar os cantos do contêiner */
+  background: linear-gradient(135deg, #FF6347, #FF7F50, #FFA07A); /* Aplica um gradiente linear de cores de fundo */
+}
+
+/* Estiliza o cabeçalho h1 */
+h1 {
+  font-size: 50px; /* Define o tamanho da fonte como 50 pixels */
+  font-weight: 900; /* Define a espessura da fonte como negrito */
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; /* Define a família de fontes a ser usada */
+  color: #FF0000; /* Define a cor do texto como vermelho */
+  text-transform: uppercase; /* Transforma o texto em maiúsculas */
+  width: 100%; /* Define a largura do elemento como 100% do elemento pai */
+  text-align: center; /* Alinha o texto no centro */
+  letter-spacing: .05em; /* Define o espaçamento entre caracteres como 0.05em */
+  text-shadow: 
+    4px 4px 0px #d5d5d5, /* Adiciona uma sombra de texto deslocada em 4px horizontalmente e 4px verticalmente, com uma cor cinza claro */
+    7px 7px 0px rgba(0, 0, 0, 0.2); /* Adiciona outra sombra de texto deslocada em 7px horizontalmente e 7px verticalmente, com uma cor preta translúcida */
+  background-color: gold; /* Define a cor de fundo como ouro */
+  border-radius: 20px; /* Define um raio de borda de 20px para arredondar os cantos */
+}
+
+/* Estiliza os rótulos */
+label {
+  font-size: 20px; /* Define o tamanho da fonte como 200 pixels */
+  font-weight: 900; /* Define a espessura da fonte como negrito */
+}
+
+/* Estiliza os elementos com IDs específicos */
+#name-form, #category-buttons, #question-container, #result-container {
+  text-align: center; /* Centraliza o alinhamento do texto dentro dos elementos */
+  margin-bottom: 20px; /* Adiciona uma margem inferior de 20 pixels aos elementos */
+}
+
+/* Efeito de destaque ao passar o mouse por cima dos botões */
+button:hover {
+  transform: scale(1.3); /* Ao passar o mouse sobre o botão, aumenta o tamanho em 1.3 vezes em relação ao tamanho original */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.6); /* Ao passar o mouse sobre o botão, adiciona uma sombra de caixa com deslocamento de 0px horizontalmente, 5px verticalmente e uma difusão de 15px, usando uma cor preta com uma opacidade de 0.6 */
+}
+
+/* Estiliza o botão de início */
+#startbtn {
+  display: block; /* Define o elemento como bloco */
+  margin: 80px auto; /* Define uma margem superior e inferior de 80 pixels e margens laterais automáticas para centralizar o elemento horizontalmente */
+  width: 150px; /* Define a largura do botão como 150 pixels */
+  height: 50px; /* Define a altura do botão como 50 pixels */
+  text-transform: capitalize; /* Transforma o texto do botão para a forma de capitalização do texto padrão */
+  text-align: center; /* Alinha o texto do botão ao centro horizontalmente */
+  font-weight: bold; /* Define a espessura da fonte como negrito */
+  font-size: large; /* Define o tamanho da fonte como grande */
+  border: 3px solid black; /* Adiciona uma borda ao botão com 3 pixels de espessura e cor preta */
+  border-radius: 20px; /* Define um raio de borda de 20 pixels para arredondar os cantos do botão */
+  background-color: #FFFACD; /* Define a cor de fundo do botão como amarelo claro */
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black, 1px 1px 0 black; /* Adiciona sombras de texto para dar um efeito tridimensional ao botão */
+  color: #f55551; /* Define a cor do texto do botão como vermelho */
+}
+
+/* Estiliza o botão de retorno */
+#returnbtn {
+  display: block; /* Define o elemento como bloco, ocupando a largura total disponível */
+  margin: 80px auto; /* Define uma margem superior e inferior de 80 pixels e margens laterais automáticas para centralizar o elemento horizontalmente */
+  width: 250px; /* Define a largura do botão como 250 pixels */
+  height: 50px; /* Define a altura do botão como 50 pixels */
+  text-transform: capitalize; /* Transforma o texto do botão para a forma de capitalização do texto padrão */
+  text-align: center; /* Alinha o texto do botão ao centro horizontalmente */
+  font-weight: bold; /* Define a espessura da fonte como negrito */
+  font-size: large; /* Define o tamanho da fonte como grande */
+  border: 3px solid black; /* Adiciona uma borda ao botão com 3 pixels de espessura e cor preta */
+  border-radius: 20px; /* Define um raio de borda de 20 pixels para arredondar os cantos do botão */
+  background-color: #FFFACD; /* Define a cor de fundo do botão como amarelo claro */
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; /* Adiciona sombras de texto para dar um efeito tridimensional ao botão */
+  color: #f55551; /* Define a cor do texto do botão como vermelho */
+}
+
+/* Estiliza o botão de categoria "Ciências" */
+#ciencias {
+  background-color: #f5f534; /* Define a cor de fundo do botão como um tom de amarelo */
+  width: 200px; /* Define a largura do botão como 200 pixels */
+  margin: 8px; /* Define uma margem ao redor do botão de 8 pixels */
+  padding: 12px 20px; /* Define o preenchimento interno do botão como 12 pixels no topo e na base e 20 pixels nos lados */
+  border-radius: 20px; /* Define um raio de borda de 20 pixels para arredondar os cantos do botão */
+  text-transform: uppercase; /* Transforma o texto do botão para a forma de capitalização do texto em caixa alta */
+  font-weight: bold; /* Define a espessura da fonte como negrito */
+}
+
+/* Estiliza o botão de categoria "História" */
+#historia {
+  background-color: #b034fd; /* Define a cor de fundo do botão como um tom de roxo */
+  width: 200px; /* Define a largura do botão como 200 pixels */
+  margin: 8px; /* Define uma margem ao redor do botão de 8 pixels */
+  padding: 12px 20px; /* Define o preenchimento interno do botão como 12 pixels no topo e na base e 20 pixels nos lados */
+  border-radius: 20px; /* Define um raio de borda de 20 pixels para arredondar os cantos do botão */
+  text-transform: uppercase; /* Transforma o texto do botão para a forma de capitalização do texto em caixa alta */
+  font-weight: bold; /* Define a espessura da fonte como negrito */
+}
+
+/* Estiliza o botão de categoria "Inglês" */
+#ingles {
+  background-color: #3199ee; /* Define a cor de fundo do botão como um tom de azul */
+  width: 200px; /* Define a largura do botão como 200 pixels */
+  margin: 8px; /* Define uma margem ao redor do botão de 8 pixels */
+  padding: 12px 20px; /* Define o preenchimento interno do botão como 12 pixels no topo e na base e 20 pixels nos lados */
+  border-radius: 20px; /* Define um raio de borda de 20 pixels para arredondar os cantos do botão */
+  text-transform: uppercase; /* Transforma o texto do botão para a forma de capitalização do texto em caixa alta */
+  font-weight: bold; /* Define a espessura da fonte como negrito */
+}
+
+/* Estiliza o botão de categoria "Geografia" */
+#geografia {
+  background-color: #2adb2a; /* Define a cor de fundo do botão como um tom de verde */
+  width: 200px; /* Define a largura do botão como 200 pixels */
+  margin: 8px; /* Define uma margem ao redor do botão de 8 pixels */
+  padding: 12px 20px; /* Define o preenchimento interno do botão como 12 pixels no topo e na base e 20 pixels nos lados */
+  border-radius: 20px; /* Define um raio de borda de 20 pixels para arredondar os cantos do botão */
+  text-transform: uppercase; /* Transforma o texto do botão para a forma de capitalização do texto em caixa alta */
+  font-weight: bold; /* Define a espessura da fonte como negrito */
+}
+
+/* Estiliza o botão de categoria "Matemática" */
+#matematica {
+  background-color: #f54028; /* Define a cor de fundo do botão como um tom de vermelho */
+  width: 200px; /* Define a largura do botão como 200 pixels */
+  margin: 8px; /* Define uma margem ao redor do botão de 8 pixels */
+  padding: 12px 20px; /* Define o preenchimento interno do botão como 12 pixels no topo e na base e 20 pixels nos lados */
+  border-radius: 20px; /* Define um raio de borda de 20 pixels para arredondar os cantos do botão */
+  text-transform: uppercase; /* Transforma o texto do botão para a forma de capitalização do texto em caixa alta */
+  font-weight: bold; /* Define a espessura da fonte como negrito */
+}
+
+/* Estiliza o botão de categoria "Atualidades" */
+#atualidades {
+  background-color: #ff2ea8; /* Define a cor de fundo do botão como um tom de rosa */
+  width: 200px; /* Define a largura do botão como 200 pixels */
+  margin: 8px; /* Define uma margem ao redor do botão de 8 pixels */
+  padding: 12px 20px; /* Define o preenchimento interno do botão como 12 pixels no topo e na base e 20 pixels nos lados */
+  border-radius: 20px; /* Define um raio de borda de 20 pixels para arredondar os cantos do botão */
+  text-transform: uppercase; /* Transforma o texto do botão para a forma de capitalização do texto em caixa alta */
+  font-weight: bold; /* Define a espessura da fonte como negrito */
+}
+
+/* Estiliza os botões no elemento com ID "options" */
+#options button {
+  display: inline-flex; /* Define o botão como um elemento de bloco com base em texto, mantendo seu tamanho conforme necessário */
+  width: 200px; /* Define a largura do botão como 200 pixels */
+  margin: 8px; /* Define uma margem ao redor do botão de 8 pixels */
+  padding: 12px 20px; /* Define o preenchimento interno do botão como 12 pixels no topo e na base e 20 pixels nos lados */
+  border-radius: 20px; /* Define um raio de borda de 20 pixels para arredondar os cantos do botão */
+  text-transform: capitalize; /* Transforma o texto do botão para a forma de capitalização do texto em caixa alta apenas para a primeira letra de cada palavra */
+  font-weight: bold; /* Define a espessura da fonte como negrito */
+  min-width: 90px; /* Define a largura mínima do botão como 90 pixels */
+  background-color: #f5f5dc; /* Define a cor de fundo do botão como um tom de amarelo claro */
+}
+
+/* Estiliza o contêiner de resultados */
+#result-container {
+  background-image: url(2r69.gif); /* Define uma imagem de fundo para o contêiner de resultado */
+  padding: 20px; /* Define um preenchimento interno de 20 pixels para o contêiner de resultado */
+  font-family: Arial, Helvetica, sans-serif; /* Define a família de fontes para Arial, Helvetica e uma fonte sans-serif genérica */
+  color: #d5d5d5; /* Define a cor do texto dentro do contêiner de resultado como um tom de cinza claro */
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black, 1px 1px 0 black; /* Aplica uma sombra de texto com deslocamento em preto nas direções diagonais */
+}
